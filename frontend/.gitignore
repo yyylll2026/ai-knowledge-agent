@@ -1,0 +1,4 @@
+node_modules/
+dist/
+shots/
+upload_test.txt

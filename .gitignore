@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.env
+*.pyc
+.idea/
+.vscode/
+
+# 向量库文件：本地索引，可以随时用 rebuild_vectors.py 从 MySQL 重建
+data/
+
+# Local environments, credentials, and WorkBuddy workspace state
+.venv*/
+venv/
+.workbuddy-ai/
+.env.*
+!.env.example
+
+# Frontend generated files
+frontend/node_modules/
+frontend/dist/
+frontend/shots/
